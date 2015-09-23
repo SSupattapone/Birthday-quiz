@@ -36,5 +36,5 @@ month = input("Hi {0}, what was the name of the month you were born in? " .forma
 year = input("And what year were you born in, {0}? " .format(name))
 day = input("And the day? ")
 if month = October and day = 31
-print("
+print("You were born on Halloween!")
 print("{0}, you are a  " .format(name))
