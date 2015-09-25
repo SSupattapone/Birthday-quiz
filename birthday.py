@@ -44,6 +44,9 @@ if month == "October" and int(day) == 31:
     print("You were born on Halloween!")
 elif month == month_name[todaymonth] and int(day) == todaydate:
     print("Happy Birthday!")
-elif year < 1980 and (month == "December" or month == "January" or month == "February"):
+elif int(year) < 1980 and (month == "December" or month == "January" or month == "February"):
     print("{0}, you are a winter baby of the stone age." .format(name))
-print("{0}, you are a  " .format(name))
+elif int(year) < 1980 and (month == "March" or month == "April" or month == "May"):
+    print("{0}, you are a spring baby of the stone age." .format(name))
+elif int(year) < 1980 and (month == "June" or month == "July" or month == "August"):
+    print("{0}, you are a summer baby of the stone age." .format(name))
