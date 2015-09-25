@@ -42,6 +42,8 @@ year = input("And what year were you born in, {0}? " .format(name))
 day = input("And the day? ")
 if month == "October" and int(day) == 31:
     print("You were born on Halloween!")
-if month == todaymonth and int(day) == todaydate:
+elif month == month_name[todaymonth] and int(day) == todaydate:
     print("Happy Birthday!")
+elif year < 1980 and  < month < 
+    print("{0}, you are a winter baby of the stone age." .format(name))
 print("{0}, you are a  " .format(name))
