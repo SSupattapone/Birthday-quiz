@@ -56,11 +56,12 @@ elif int(year) < 1980 and (month == "June" or month == "July" or month == "Augus
 elif int(year) < 1980 and (month == "September" or month == "October" or month == "November"):
     print("{0}, you are a fall baby of the stone age." .format(name))
 
-elif int(year) < 1980 and (month == "December" or month == "January" or month == "February"):
+elif 1980 <= int(year) < 1989 and (month == "December" or month == "January" or month == "February"):
     print("{0}, you are a winter baby of the stone age." .format(name))
-elif int(year) < 1980 and (month == "March" or month == "April" or month == "May"):
+elif 1980 <= int(year) < 1989 and (month == "March" or month == "April" or month == "May"):
     print("{0}, you are a spring baby of the stone age." .format(name))
-elif int(year) < 1980 and (month == "June" or month == "July" or month == "August"):
+elif 1980 <= int(year) < 1989 and (month == "June" or month == "July" or month == "August"):
     print("{0}, you are a summer baby of the stone age." .format(name))
-elif int(year) < 1980 and (month == "September" or month == "October" or month == "November"):
+elif 1980 <= int(year) < 1989 and (month == "September" or month == "October" or month == "November"):
     print("{0}, you are a fall baby of the stone age." .format(name))
+
