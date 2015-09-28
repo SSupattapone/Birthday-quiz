@@ -45,7 +45,7 @@ if month == "October" and int(day) == 31:
     print("You were born on Halloween!")
 
 elif month == month_name[todaymonth] and int(day) == todaydate:
-    print("Happy Birthday!")
+    print("Happy birthday!")
 
 elif int(year) < 1980 and (month == "December" or month == "January" or month == "February"):
     print("{0}, you are a winter baby of the stone age." .format(name))
