@@ -48,13 +48,13 @@ elif month == month_name[todaymonth] and int(day) == todaydate:
     print("Happy birthday!")
 
 elif int(year) < 1980 and (month == "December" or month == "January" or month == "February"):
-    print("{0}, you are a winter baby of the stone age." .format(name))
+    print("{0}, you are a winter baby of the Stone age." .format(name))
 elif int(year) < 1980 and (month == "March" or month == "April" or month == "May"):
-    print("{0}, you are a spring baby of the stone age." .format(name))
+    print("{0}, you are a spring baby of the Stone age." .format(name))
 elif int(year) < 1980 and (month == "June" or month == "July" or month == "August"):
-    print("{0}, you are a summer baby of the stone age." .format(name))
+    print("{0}, you are a summer baby of the Stone age." .format(name))
 elif int(year) < 1980 and (month == "September" or month == "October" or month == "November"):
-    print("{0}, you are a fall baby of the stone age." .format(name))
+    print("{0}, you are a fall baby of the Stone age." .format(name))
 
 elif 1980 <= int(year) <= 1989 and (month == "December" or month == "January" or month == "February"):
     print("{0}, you are a winter baby of the eighties." .format(name))
